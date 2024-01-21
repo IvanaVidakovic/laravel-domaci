@@ -11,12 +11,20 @@ class ComposerStaticInitc4861282dbd0bbf7c3881414ce11f8dd
         array (
             'Thiagoprz\\CompositeKey\\' => 23,
         ),
+        'S' => 
+        array (
+            'Symfony\\Component\\Finder\\' => 25,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
         'Thiagoprz\\CompositeKey\\' => 
         array (
             0 => __DIR__ . '/..' . '/thiagoprz/eloquent-composite-key/src',
+        ),
+        'Symfony\\Component\\Finder\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/finder',
         ),
     );
 

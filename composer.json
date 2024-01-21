@@ -1,5 +1,6 @@
 {
     "require": {
-        "thiagoprz/eloquent-composite-key": "^1.0"
+        "thiagoprz/eloquent-composite-key": "^1.0",
+        "symfony/finder": "^7.0"
     }
 }

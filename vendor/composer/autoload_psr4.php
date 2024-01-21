@@ -7,4 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Thiagoprz\\CompositeKey\\' => array($vendorDir . '/thiagoprz/eloquent-composite-key/src'),
+    'Symfony\\Component\\Finder\\' => array($vendorDir . '/symfony/finder'),
 );
