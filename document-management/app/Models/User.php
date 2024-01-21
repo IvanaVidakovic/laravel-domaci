@@ -42,4 +42,14 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
     ];
+
+    protected $guarded = [];
+
+    public function documentsUser(){
+        return $this->hasMany(Documents::class);
+    }
+
+    public function departmentsUser(){
+        return $this->hasMnay(Department::class);
+    } 
 }
